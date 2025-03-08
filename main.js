@@ -16,7 +16,7 @@ const fsMkdir = promisify(fs.mkdir)
 const fsUnlink = promisify(fs.unlink)
 const streamPipeline = promisify(stream.pipeline)
 
-const defaultExtnameList = ['css', 'eot', 'woff', 'woff2', 'ttf', 'svg']
+const defaultExtnameList = ['css', 'woff', 'woff2', 'ttf']
 
 // 默认的 iconfont.cn 下载下来的 css 中包含的是字体文件的在线地址
 // 需要转换成本地字体文件地址
